@@ -1,0 +1,44 @@
+body{
+  font-size: 16px;
+  font-family: Verdana sans-serif;
+  color; #333;
+}
+p{
+  text-align: center;
+}
+legend{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#sec{
+  background-color: #c4c5ca;
+  padding: 10px;
+  margin: 10% 30%;
+}
+#sec input{
+  width: 300px;
+  height: 30px
+}
+#sec label{
+  display: inline-block;
+  width: 200px;
+  padding: 10px 0px 15px 40px;
+}
+#sec:hover{
+  box-shadow: 0px 0px 5px #444;
+}
+input[type="submit"]{
+  padding: 10px 0px 25px 10px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #4B4E5A;
+  border-radius: 5px;
+  text-transform: uppercase;
+
+}
+input[type="submit"]:hover{
+  box-shadow: 0px 0px 3px #555;
+  background-color: #3C435F;
+}
